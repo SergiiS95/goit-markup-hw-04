@@ -1,0 +1,355 @@
+:root {
+  --first-title-color: #2e2f42;
+  --second-title-color: #ffffff;
+  --text-color: #434455;
+  --first-btn-color: #4d5ae5;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--first-title-color);
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/*---------HEADER---------*/
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-navigation {
+  display: flex;
+}
+.header-container {
+  display: flex;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--first-title-color);
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-logo span {
+  color: var(--first-btn-color);
+}
+
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: #434455;
+}
+.header-link:active {
+  color: var(--first-btn-color);
+}
+.header-address {
+  margin-left: auto;
+}
+.header-address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-address-link:hover,
+.header-adres-link:focus {
+  color: var(--first-btn-color);
+}
+.header-adres-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/*---------HERO---------*/
+
+.hero {
+  background-color: var(--first-title-color);
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+  max-width: 496px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background: var(--first-btn-color);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--first-btn-color);
+}
+.hero-btn:active {
+  background: #404bbf;
+}
+
+/*---------BENEFITS---------*/
+.benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+.benefits-item {
+}
+.benefits-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+  margin-bottom: 8px;
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*---------WORK---------*/
+.work {
+  padding-bottom: 120px;
+}
+.work-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--first-title-color);
+  margin-bottom: 72px;
+}
+.work-list {
+  display: flex;
+  gap: 24px;
+}
+
+.work-item {
+}
+
+/*--------TEAM---------*/
+.team {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--first-title-color);
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.list {
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-name {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  margin-top: 8px;
+}
+.team-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/*--------FOOTER---------*/
+.footer {
+  background-color: var(--first-title-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  margin-bottom: 16px;
+}
+.footer-logo span {
+  color: var(--first-btn-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+  max-width: 264px;
+}
+/*--------PORTFOLIO---------*/
+
+.portfolio {
+  padding-top: 108px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+.portfolio-item-btn:nth-child(-n + 4) {
+  margin-right: 24px;
+}
+.portfolio-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--first-btn-color);
+  background-color: #f4f4fd;
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: var(--first-btn-color);
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+  margin-bottom: 8px;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.portfolio-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
